@@ -50,7 +50,7 @@ chmod +x run.sh
 ./run.sh
 ```
 
-Then open **http://localhost:8000** and sign in with `aster-test` / `123456`.
+Then open **http://localhost:8000** and sign in with `testing` / `123456`.
 
 ## How to test it, step by step
 

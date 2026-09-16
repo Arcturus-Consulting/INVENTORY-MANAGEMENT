@@ -25,7 +25,7 @@ from report_parser import parse_valuation_report
 app = FastAPI(title="ORION Validator - Phase 1", version="1.0.0")
 FRONTEND_INDEX = Path(__file__).resolve().parent.parent / "frontend" / "index.html"
 
-AUTH_USERNAME = "aster-test"
+AUTH_USERNAME = "testing"
 AUTH_PASSWORD = "123456"
 
 # token -> session state: {"report": {...} | None, "validation": {...} | None}
